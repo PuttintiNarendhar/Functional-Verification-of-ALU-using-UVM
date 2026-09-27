@@ -19,7 +19,7 @@ uvm_top
            │    ├── my_driver (Drives dut_if via virtual interface)
            │    └── my_monitor
            └── my_scoreboard (Validates expected vs. actual register reads)
-
+```
 
 ### Component Breakdown
 * *Top-Level (testbench.sv)*: Instantiates the Device Under Test (DUT), the physical interface, and invokes run_test().
